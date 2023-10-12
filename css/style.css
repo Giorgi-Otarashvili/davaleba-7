@@ -149,5 +149,62 @@ letter-spacing: -0.8px;
     /* ზუსტად იგივე აიქონი ვერ ვიპოვე რომელიც იმუშავებდა , ეს სავსეა და ცოტა ცუდად ჩანს თეთრი როცაა */
     border-radius: 4px;
 background: #DCB47A;
-color:black ;
+color:black;
+}
+/* footer start  */
+
+footer {
+    background: #262626;
+    padding: 60px 629px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 49px;
+
+
+}
+
+.footerh1 {
+    color: #FFF;
+text-align: center;
+font-family: 'Work Sans', sans-serif;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 70px; /* 116.667% */
+}
+
+.footer_span {
+    color: #DCB47A;
+
+}
+.footer_p {
+    color: rgba(255, 255, 255, 0.80);
+text-align: center;
+font-family: 'Work Sans', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 26px */
+}
+button {
+    width: 200px;
+height: 64px;
+border-radius: 60px;
+background: #DCB47A;
+color: #FFF;
+text-align: center;
+font-family: 'Work Sans', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 19.2px */
+text-transform: capitalize;;
+}
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px #E08C11,
+        0 0 40px #E08C11,
+        0 0 60px #E08C11,
+        0 0 85px #E08C11;
 }
